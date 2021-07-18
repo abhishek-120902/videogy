@@ -68,8 +68,4 @@
     <string name="start_guide">Start Guide</string>
     <string name="next">Next</string>
 
-    <string-array name="blocked_sites">
-        <item>youtube.com</item>
-    </string-array>
-
 </resources>
