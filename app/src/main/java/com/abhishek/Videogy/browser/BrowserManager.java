@@ -61,7 +61,6 @@ public class BrowserManager extends VDFragment {
             //nada
         }
         updateAdFilters();
-        blockedWebsites = Arrays.asList(getResources().getStringArray(R.array.blocked_sites));
     }
 
     public void newWindow(String url) {
