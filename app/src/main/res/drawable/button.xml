@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2021.  Alpha Coders
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:padding="@dimen/_4sdp" android:shape="rectangle">
+            <solid android:color="@color/colorPrimaryDark" />
+            <corners android:radius="@dimen/_5sdp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:padding="@dimen/_4sdp" android:shape="rectangle">
+            <solid android:color="@color/colorPrimary" />
+            <corners android:radius="@dimen/_5sdp" />
+        </shape>
+    </item>
+</selector>

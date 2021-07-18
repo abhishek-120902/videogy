@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2021.  Alpha Coders
+  -->
+
+<resources>
+    <string-array name="videourl_filters">
+        <item>mp4</item>
+        <item>video</item>
+        <item>googleusercontent</item>
+        <item>embed</item>
+    </string-array>
+</resources>

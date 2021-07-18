@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2021.  Alpha Coders
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:focusableInTouchMode="true"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <ImageView
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_home" />
+
+    <com.sinaseyfi.advancedcardview.AdvancedCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btn_settings"
+        android:layout_toEndOf="@+id/btn_home"
+        android:paddingHorizontal="8dp"
+        app:background_Color="@android:color/white"
+        app:background_ColorType="solid"
+        app:background_Type="fill"
+        app:corner_Type="circular"
+        app:shadow_Outer_Area="4dp"
+        app:stroke_Type="solid">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_search_bar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:hint="@string/enter_url"
+                android:imeActionId="666"
+                android:imeActionLabel="Enter"
+                android:imeOptions="actionGo"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingHorizontal="8dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#90000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/btn_search_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/ic_close"
+                android:visibility="gone"
+                app:tint="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/ic_search"
+                android:visibility="visible"
+                app:tint="@color/colorPrimary" />
+
+        </LinearLayout>
+    </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+    <ImageView
+        android:id="@+id/btn_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_settings" />
+
+</RelativeLayout>

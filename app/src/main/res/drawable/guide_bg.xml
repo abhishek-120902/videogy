@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2021.  Alpha Coders
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:angle="45"
+        android:endColor="#FF5722"
+        android:startColor="@color/colorPrimary" />
+
+    <corners android:radius="24dp" />
+
+</shape>

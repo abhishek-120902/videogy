@@ -1,0 +1,75 @@
+<!--
+  ~ Copyright (c) 2021.  Alpha Coders
+  -->
+
+<resources>
+
+
+    <string name="app_name">Videogy</string>
+
+    <string name="admob_app_id">ca-app-pub-3855998688421115~6021296219</string>
+    <string name="intersititial">ca-app-pub-3855998688421115/6759662810</string>
+    <string name="banner">ca-app-pub-3855998688421115/1269578700</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_downloads">Downloads</string>
+
+    <string name="enter_url">Search</string>
+
+    <string name="msg_share">Download the best video downloader app of all time!</string>
+    <string name="app_link">https://play.google.com/store/</string>
+
+    <string name="no_history">No History</string>
+    <string name="history">History</string>
+    <string name="progress">Progress</string>
+    <string name="progress_caps">PROGRESS</string>
+    <string name="delete">Delete</string>
+    <string name="open_url">Open Url</string>
+    <string name="copy_url">Copy Url</string>
+    <string name="copy_msg">URL Copied</string>
+    <string name="video">Videos</string>
+    <string name="share">Share</string>
+    <string name="shareus">Share Us</string>
+    <string name="moreapp">More App</string>
+    <string name="share_msg">Download the best video downloader app of all time!</string>
+    <string name="go_to_folder">Location</string>
+    <string name="rename">Rename</string>
+    <string name="download">Download</string>
+    <string name="download_caps">DOWNLOAD</string>
+    <string name="speed_0">Speed: 0KB/s</string>
+    <string name="remaining_undefine">Remaining: —</string>
+    <string name="empty_download_list">Do you want to clear this list?</string>
+
+    <string name="settings">Settings</string>
+    <string name="vibrate">Vibrate on Download Complete</string>
+    <string name="sound">Sound on Download Complete</string>
+    <string name="browser">Browser</string>
+    <string name="ad_blocker">Ad Blocker</string>
+    <string name="help">Help</string>
+    <string name="rate">Rate Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_link">https://en.wikipedia.org/wiki/Privacy_policy</string>
+    <string name="no_video_msg">Please go to <b>video detail page</b> to <b>play video first</b>, and the download button will be available after Video Downloader detects the video.</string>
+    <string name="dialog_youtube_text">Due to legal restrictions, videos on YouTube cannot be downloaded.\n\nPlease download videos from other websites.</string>
+    <string name="got_it">GOT IT</string>
+    <string name="dialog_youtube_title">Youtube is not supported!</string>
+    <string name="sample">samp</string>
+    <string name="textview">TextView</string>
+    <string name="_1">1</string>
+    <string name="go_to_website">Go to website</string>
+    <string name="you_have_no_download_in_progress">You Have No Download In Progress!</string>
+    <string name="you_haven_t_download_anything_yet">You Haven\'t Download Anything Yet!</string>
+    <string name="no_video_resource_found">No Video Resource Found</string>
+    <string name="back">Back</string>
+    <string name="_00_00">00:00</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error!</string>
+    <string name="how_to_download">How to download?</string>
+    <string name="start_guide">Start Guide</string>
+    <string name="next">Next</string>
+
+    <string-array name="blocked_sites">
+        <item>youtube.com</item>
+    </string-array>
+
+</resources>
