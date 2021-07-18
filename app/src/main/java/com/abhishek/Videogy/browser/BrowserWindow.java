@@ -109,7 +109,6 @@ public class BrowserWindow extends VDFragment implements View.OnClickListener, M
         Bundle data = getArguments();
         url = data.getString("url");
         defaultSSLSF = HttpsURLConnection.getDefaultSSLSocketFactory();
-        blockedWebsites = Arrays.asList(getResources().getStringArray(R.array.blocked_sites));
         setRetainInstance(true);
         AdRequest adRequest = new AdRequest.Builder().build();
 
@@ -230,22 +229,6 @@ public class BrowserWindow extends VDFragment implements View.OnClickListener, M
                 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
                 @Override
                 public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-
-//                    if (blockedWebsites.contains(Utils.getBaseDomain(request.getUrl().toString()))) {
-//                        Log.d("vdd", "URL : " + request.getUrl().toString());
-//                        new AlertDialog.Builder(activity)
-//                                .setMessage("Youtube is not supported according to google policy.")
-//                                .setNegativeButton("Ok", new DialogInterface.OnClickListener() {
-//                                    @Override
-//                                    public void onClick(DialogInterface dialog, int which) {
-//                                        dialog.dismiss();
-//                                    }
-//                                })
-//                                .create()
-//                                .show();
-//                        return true;
-//                    }
-
                     return super.shouldOverrideUrlLoading(view, request);
                 }
 
