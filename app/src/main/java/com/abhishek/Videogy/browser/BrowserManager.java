@@ -82,37 +82,6 @@ public class BrowserManager extends VDFragment {
             }
         }
 
-//        if (blockedWebsites.contains(Utils.getBaseDomain(url))) {
-//            final Dialog dialog = new Dialog(getContext());
-//            dialog.setContentView(R.layout.dialog_youtube);
-//
-//            Button button = dialog.findViewById(R.id.btn_ok);
-//            button.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    dialog.dismiss();
-//                }
-//            });
-//
-//            dialog.show();
-//        } else {
-//            Bundle data = new Bundle();
-//            data.putString("url", url);
-//            BrowserWindow window = new BrowserWindow(activity);
-//            window.setArguments(data);
-//            getFragmentManager().beginTransaction()
-//                    .add(R.id.home_container, window, null)
-//                    .commit();
-//            windows.add(window);
-//            getVDActivity().setOnBackPressedListener(window);
-//            if (windows.size() > 1) {
-//                window = windows.get(windows.size() - 2);
-//                if (window != null && window.getView() != null) {
-//                    window.getView().setVisibility(View.GONE);
-//                    window.onPause();
-//                }
-//            }
-//        }
     }
 
     public void closeWindow(BrowserWindow window) {
